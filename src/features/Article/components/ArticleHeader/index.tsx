@@ -1,5 +1,4 @@
 import { FC } from "react";
-import styled from "@emotion/styled";
 
 import * as S from './styled';
 
