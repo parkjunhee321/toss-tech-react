@@ -16,7 +16,7 @@ export interface NavbarProps {
 
 export const Navbar: FC = () => {
   return (
-    <S._Navbar>
+    <S._Nav>
       <S._NavbarInnerContents>
         <S._LogoContainer href="/">
           <S._Logo src={NavbarLogoPNG} />
@@ -31,6 +31,6 @@ export const Navbar: FC = () => {
           }
         </S._Tabs>
       </S._NavbarInnerContents>
-    </S._Navbar>
+    </S._Nav>
   )
 }

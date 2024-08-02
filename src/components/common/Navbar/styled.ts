@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { colorType } from ".";
 import { css } from "@emotion/react";
 
-export const _Navbar = styled.nav`
+export const _Nav = styled.nav`
   width: 100%;
   height: 60px;
 
