@@ -1,23 +1,4 @@
-import { ArticleContentTypes } from "../features/Article/types";
-interface CategoriesTypes {
-  name: string;
-  id: number;
-  slug: string | null;
-  parentId: number | null;
-  iconUrl: string | null;
-}
-
-interface SuccessTypes {
-  id: number;
-  postId: number;
-  title: string;
-  subtitle: string;
-  category: string;
-  series: null | [];
-  categories: CategoriesTypes[];
-  data: ArticleContentTypes[];
-  isPublished: boolean;
-}
+import { ArticleContentTypes, SuccessTypes } from "../../types/article";
 
 interface ApiResponse {
   resultType: string;
